@@ -1,2 +1,2 @@
-0 */8 * * *  /bin/bash -c '/path/to/certbot-auto renew --quiet --keep-until-expiring --no-self-upgrade &>> cron.log'
+0 */8 * * *  /bin/date &&  /bin/bash -c '/path/to/certbot-auto renew --quiet --keep-until-expiring --no-self-upgrade') >> cron.log 2>&1
 
