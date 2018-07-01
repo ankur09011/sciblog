@@ -22,7 +22,7 @@ SECRET_KEY = SECRETKEY
 # This flag is set in an external file private.py
 DEBUG = DEBUG_FLAG
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost','www.miguelgfierro.com','miguelgfierro.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '34.196.165.216']
 
 # Application definition
 INSTALLED_APPS = (
